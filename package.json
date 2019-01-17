@@ -1,0 +1,33 @@
+{
+  "name": "graphql-essentials",
+  "version": "1.0.0",
+  "description": "Follow-along code for [GraphQL Essential Training](https://www.linkedin.com/learning/graphql-essential-training) on LinkedIn Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naman1901/graphql-essentials.git"
+  },
+  "keywords": [
+    "graphql",
+    "fundamentals"
+  ],
+  "author": "Naman Maheshwari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naman1901/graphql-essentials/issues"
+  },
+  "homepage": "https://github.com/naman1901/graphql-essentials#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
